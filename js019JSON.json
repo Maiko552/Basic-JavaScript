@@ -1,0 +1,10 @@
+//ASPAS DUPLAS
+{
+    "nome": "Maikon",
+    "idade": 22,
+    "esta_trabalhando": false,
+    "detalhes": {
+        "jogos": ["Lol", "Cod"]
+    },
+    "hobbies":["Programar", "Jogar", "Anime"]
+}
