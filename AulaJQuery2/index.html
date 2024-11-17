@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<header>
+    <h1>Cadastro</h1>
+</header>
+<body>
+    <div id="container">
+        <div class="input-group">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+        </div>
+
+        <div class="input-group">
+            <label for="rgm">RGM:</label>
+            <input type="number" name="rgm" id="rgm">
+        </div>
+
+        <div id="botoes">
+            <input type="checkbox" id="aceitarTermos" name="aceitarTermos">
+            <label for="aceitarTermos">Aceitar termos</label>
+
+            <!-- Adicionando texto no botão "Logar" -->
+            <button type="button" id="logar" name="logar" value="Logar">Logar</button> 
+            <button type="button" id="sair" name="sair">Sair</button>
+        
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

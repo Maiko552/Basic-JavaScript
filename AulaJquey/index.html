@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">.
+
+
+    <title>Aula sobre JQuery</title>
+</head>
+
+<header>
+    <h1 id="tituloPrincipal">Aulas utilizando JQuery</h1>
+    <p>Titulo clickavel com JQuery</p>
+</header>
+
+<body>
+    <div id="beforeParag">
+        <h3>Seletores e Operadores</h3>
+        <p>
+            A finalidade do jQuery é controlar o comportamento de uma página web e, para tanto, é necessário encontrar
+            os elementos HTML que constituem a página e terão seu comportamento modificado. Nesse sentido, a sintaxe do
+            jQuery é bastante simples.
+            imagem que descreve a sintaxe de uso do jQuery. No centro, há uma descrição da sintaxe. Acima, um
+            retângulo com fundo cinza possui o texto “localiza os elementos HTML” e refere-se ao seletor. Abaixo,
+            outros dois retângulos com fundo na cor cinza. O retângulo à esquerda tem em seu interior o texto “$
+            para utilizar o jQuery”, já o à direita contém o texto: “define a ação que será executada”.</p>
+        </p>
+    </div>
+
+    <div id="container">
+        <img id="jqueryImage" src="/img/jqueyImage.png" alt="jquery sintaxe">
+        <button id="btnInfo">Clique aqui para saber mais</button>
+    </div>
+    <div>
+        <section id="afterParag">
+            <p>
+                Vejamos alguns exemplos de como utilizar o jQuery para ter acesso aos elementos de uma página web:
+                <br>
+                $("*"): seleciona todos os elementos da página;
+                <br>
+                $("tipo_do_elemento"): seleciona todos os elementos de um tipo escolhido, basta colocar o nome do
+                elemento entre as aspas.
+                <br>
+                Exemplo: $("p").hide() esconde todos os elementos;
+                <br>
+                $("#id_do_elemento"): seleciona o elemento pelo id. Um elemento do html possui um atributo id, esse
+                atributo id é informado juntamente com o caracter # para o jQuery ter acesso. Exemplo:
+                $("#main").hide() oculta o elemento com id="main";
+                <br>
+                $(".nome_da_classe"): seleciona os elementos da classe. Dentro de um seletor, o caractere ponto (.)
+                refere-se à classe (atributo “class” da tag HTML). Exemplo: $(".main").hide() oculta o elemento com
+                class="main";
+            </p>
+        </section>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+</html>
